@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  font-family: 'Staatliches', cursive;
+  color: #fff;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.wrapper img {
+  width: 500px;
+  max-width: 85%;
+  border-radius: 20px;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+
+.text {
+  text-align: center;
+}
+
+.text h1 {
+  margin: 0;
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+.text p {
+  margin-top: 6px;
+  font-size: 20px;
+  opacity: 0.9;
+}
